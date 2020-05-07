@@ -13,6 +13,6 @@ export default class extends Controller {
     document.removeEventListener('$test', DOMEventHandler)
   }
   triggerjQ () {
-    $(document).trigger('test')
+    window.$(document).trigger('test')
   }
 }
